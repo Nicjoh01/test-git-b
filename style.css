@@ -48,11 +48,14 @@ h2{
 }
 
 h3{
-    font-size: 40px;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;;
+    margin-bottom: 12px;
 }
 
 p{
 font-size: 25px;
+font-family: "Roboto", sans-serif;;
 }
 
 img {
@@ -84,17 +87,47 @@ img {
 
 .right-column {
     width: 40%;
-    margin-top: 70px;
+    margin-top: 80px;
     padding-left: 20px;
 }
 
 .boks{
     background-color: #425348;
-    height: 490px;
+    height: 470px;
     width: 420px ;
     border-radius: 70px;
     padding-left: 50px;
     padding-top: 20px;
+    color: #fff;
+    justify-content: center;
+    text-align: left;
+}
+
+button {
+    background-color:#779882;
+    color: #fff;
+    font-family: "Roboto", sans-serif;;
+    padding: 1.2em;
+    border: none;
+    border-radius: 17px;
+    width: 85%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+input[type=navn], input[type=bruger], input[type=mail], select {
+    width: 85%;
+    padding: 1.2em;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 17px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #000;
+    font-size: 16px;
 }
 
 footer {
