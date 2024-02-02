@@ -42,9 +42,17 @@ h1{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 30px;
     line-height: 0.5;
     font-family: "Roboto", sans-serif;;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+font-size: 25px;
 }
 
 img {
@@ -63,14 +71,30 @@ img {
 .column {
     display: flex;
     justify-content: space-between;
+    background-color: #F3F4EF;
+    padding-bottom: 40px;
 }
 
 .left-column {
-    width: 60%;
+    width: 55%;
+    color: #3C3C3C;
+    margin-left: 20px;
+    padding-right: 75px;
 }
 
 .right-column {
     width: 40%;
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.boks{
+    background-color: #425348;
+    height: 490px;
+    width: 420px ;
+    border-radius: 70px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 footer {
